@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat.ServerActivity"
+    android:orientation="vertical"
+    tools:ignore="OnClick">
+
+    <Button
+        android:id="@+id/butPc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="PC와 통신"
+         />
+
+    <Button
+        android:id="@+id/butAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="안드로이드와 통신" />
+
+</LinearLayout>

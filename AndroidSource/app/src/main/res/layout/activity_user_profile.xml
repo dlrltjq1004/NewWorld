@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xnslq.novaworld.Profile.UserProfileActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+    android:id="@+id/profile_kakaologout_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="카카오 로그아웃"/>
+
+    <Button
+        android:id="@+id/profile_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="뒤로가기"/>
+
+    <Button
+        android:id="@+id/chatServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="채팅테스트"/>
+
+
+
+    <ImageView
+        android:id="@+id/profile_kakoprofile_img"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        />
+
+</LinearLayout>
+
+</LinearLayout>

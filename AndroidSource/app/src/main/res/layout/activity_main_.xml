@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xnslq.novaworld.Main_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradation_side"
+        android:orientation="vertical">
+        <!--프로필-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/main_profile_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            />
+
+
+
+            />
+        <!--android:background="@drawable/ic_person_black_24dp"-->
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+
+            android:textColor="#ffffff"
+            android:text="프로필"
+            android:textSize="12dp"/>
+        <!--프로필-->
+
+        <!--홈-->
+    <ImageView
+        android:id="@+id/main_home_img"
+        android:layout_gravity="center"
+    android:layout_width="35dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/fencing" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+
+            android:textColor="#ffffff"
+            android:text="홈"
+            android:textSize="12dp"/>
+        <!--홈-->
+
+        <!--영웅-->
+        <ImageView
+            android:id="@+id/main_hero_btn"
+            android:layout_gravity="center"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+
+        android:src="@drawable/vr_glasses"/>
+
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+
+            android:textColor="#ffffff"
+            android:text="영웅"
+            android:textSize="12dp"/>
+        <!--영웅-->
+
+        <!--상점-->
+   <ImageView
+       android:id="@+id/main_herostore"
+   android:layout_width="35dp"
+   android:layout_height="40dp"
+   android:layout_marginTop="10dp"
+       android:layout_gravity="center"
+       android:layout_marginRight="3dp"
+   android:src="@drawable/cart"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+
+            android:textColor="#ffffff"
+            android:text="상점"
+            android:textSize="12dp"/>
+
+        <!--상점-->
+
+        <!--특성-->
+        <ImageView
+            android:id="@+id/main_characteristic"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/spellbook" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:textColor="#ffffff"
+            android:text="특성"
+            android:textSize="12dp"/>
+        <!--특성-->
+
+</LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/gradation_side">
+
+
+        <!--<Button-->
+            <!--android:id="@+id/maintest_btn"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:text="Test"/>-->
+       <!--<TextView-->
+           <!--android:id="@+id/mainTest_textview"-->
+           <!--android:layout_width="wrap_content"-->
+           <!--android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/main_GameStart_tev"
+            android:layout_width="135dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="200dp"
+            android:text="경기 검색 중···"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:textColor="#ffffff"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/gold_coin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="#ffffff"
+            android:text="0"
+            android:textSize="12dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/diamond"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="#ffffff"
+            android:text="0"
+            android:textSize="12dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_add_black_24dp"/>
+        <ImageView
+            android:id="@+id/mainItem_FriendList_btn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_group_black_24dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_settings_black_24dp"/>
+
+
+    </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+            <ImageView
+                android:id="@+id/main_MainImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/image_main"
+                android:scaleType="centerCrop"/>
+
+            <Button
+                android:id="@+id/main_GameStart_btn"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="30dp"
+                android:textSize="20dp"
+                android:text="실시간 대전"
+                android:background="#dedede"/>
+
+            </FrameLayout>
+
+            <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="45dp"-->
+                <!--android:background="@drawable/gradation_side">-->
+                <!---->
+                <!--<TextView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="채팅"-->
+                    <!--android:textColor="#ffffff" -->
+                    <!--android:textSize="15dp"-->
+                    <!--android:drawableStart="@drawable/ic_chat_black_24dp"-->
+                    <!--android:drawableLeft="@drawable/gradation_side"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:paddingLeft="10dp"/>-->
+
+               <!---->
+
+
+
+            <!--</LinearLayout>-->
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#495a72">
+
+                <ImageView
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_public_black_24dp"/>
+
+
+            <TextView
+                android:id="@+id/MainWorldChat"
+                android:background="#30394a"
+                android:layout_marginLeft="10dp"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:gravity="left"
+                android:textColor="#e9e9e9"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                />
+                <!--e9e9e9-->
+                <!--android:drawableStart="@drawable/ic_public_black_24dp"-->
+                <!--android:background="@drawable/gradation_side"-->
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

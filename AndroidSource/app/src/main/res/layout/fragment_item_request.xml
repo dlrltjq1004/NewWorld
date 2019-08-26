@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_marginLeft="70dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/friendrequestitem_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/kakao_default_profile_image" />
+
+    <TextView
+        android:id="@+id/friendrequestitem_name"
+        android:layout_toRightOf="@+id/search_profile_image"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="닉네임"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/friendrequestitem_accept"
+        android:layout_marginLeft="250dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:text="수락"
+        android:background="@color/colorFragment"/>
+
+    <Button
+        android:id="@+id/friendrequestitem_refusal"
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:text="거절"
+        android:background="@color/colorFragment"/>
+
+</LinearLayout>

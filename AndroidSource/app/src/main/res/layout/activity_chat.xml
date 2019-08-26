@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="345dp"
+
+    android:background="#69047cab"
+    >
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/worldChat_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+
+        <EditText
+            android:id="@+id/editMessage"
+
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="30"
+            android:background="#b2f1ff"/>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnSend"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="전송"
+            android:background="#b2f1ff"/>
+    </LinearLayout>
+</LinearLayout>

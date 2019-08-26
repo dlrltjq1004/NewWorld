@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="600dp"
+    android:layout_height="320dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="40dp"
+    android:background="#f11b1b1b"
+    tools:context="com.example.xnslq.novaworld.Login_Register.LoginFormActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2e3143">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#cac7c7"
+            android:text="로그인"
+            android:textSize="25dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:id="@+id/loginForm_close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_close_black_24dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/loginForm_userID"
+            android:paddingLeft="5dp"
+            android:layout_width="500dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"
+            android:hint="아이디 입력"
+            android:textColor="#ffffff"
+            android:textColorHint="#becac7c7"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        >
+
+        <EditText
+            android:id="@+id/loginForm_userPassword"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_width="500dp"
+            android:layout_height="55dp"
+            android:background="@drawable/back"
+            android:hint="비밀번호 입력"
+            android:textColorHint="#becac7c7"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:inputType="textPassword"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginForm_loginBtn"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:background="#ffffff"
+        android:textColor="#c22e2e2e"
+        android:layout_gravity="center"
+        android:text="로그인"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+
+
+</LinearLayout>

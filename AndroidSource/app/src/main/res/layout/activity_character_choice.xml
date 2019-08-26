@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xnslq.novaworld.Play.CharacterChoiceActivity">
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="120dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+<ImageView
+    android:id="@+id/Character_HaroChoice"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/image_main"
+    android:background="@drawable/border"/>
+
+
+    <ImageView
+        android:id="@+id/Character_HaroChoice2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_main"
+        android:background="@drawable/border"
+        android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

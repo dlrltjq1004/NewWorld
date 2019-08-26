@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.xnslq.novaworld">
+    <!--android:process=":unityplayer"-->
+    <uses-sdk tools:overrideLibrary="com.unity3d.player"/>
+
+    <!--<uses-sdk tools:overrideLibrary="com.unity3d.player.UnityPlayerActivity" />-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--// 인터넷 접속 권한-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--// 와이파이 상태 체크 권한-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--// 네트워크가 가능한지 체크하는 권한-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--// 현재 핸드폰의 상태를 체크하는 권한-->
+    <application
+        tools:replace="android:icon,android:theme"
+        android:name=".Kakao_login.GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_key" />
+
+        <activity
+            android:name=".Login_Register.Login_Activity"
+            android:screenOrientation="landscape">
+            <!--//화면을 landscape(가로) 화면으로 고정하고 싶은 경우-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main_Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Login_Register.RegisterActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Login_Register.LoginFormActivity" />
+        <activity android:name=".Kakao_login.KakaoSignupActivity" />
+        <activity
+            android:name=".Profile.UserProfileActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Play.CharacterChoiceActivity"
+            android:screenOrientation="landscape" />
+        <!-- <activity -->
+        <!-- android:name=".Unity.UnityPlayerActivity" -->
+        <!-- android:screenOrientation="landscape" /> -->
+        <!--  -->
+        <!-- &lt;!&ndash; <activity android:name=".Chat.ChatActivity" &ndash;&gt; -->
+        <!-- &lt;!&ndash; android:screenOrientation="landscape"/> &ndash;&gt; -->
+        <!--&lt;!&ndash; <activity &ndash;&gt;<![CDATA[-->
+        <!--android:name=".Chat.ServerActivity"-->
+        <!--android:screenOrientation="landscape" />-->
+        <!--]]>-->
+        <receiver android:name=".Adapter.MsgAdapter$MyReceiver" />
+
+        <activity
+            android:name=".Friend.FriendListActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".SQLite.SQLiteTestActivity" />
+        <activity android:name=".Chat.FriendList_ChatRoomActivity"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

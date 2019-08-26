@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--카카오톡 네이티브키-->
+    <!--<string name="app_name">Heelo</string>-->
+    <string name="kakao_key"> 7c51653c6ea0c336612073e873ce40b3 </string>
+
+</resources>

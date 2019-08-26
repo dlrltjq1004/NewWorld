@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xnslq.novaworld.Login_Register.Login_Activity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_main">
+
+
+
+        <!--// 겹치게 만들기 위한 레이아웃-->
+        <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp">-->
+
+
+            <ImageView
+        android:id="@+id/btn_custom_login"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/kakao_login"
+        android:layout_marginTop="650px"
+        android:layout_marginLeft="100dp"/>
+
+            <com.kakao.usermgmt.LoginButton
+                android:id="@+id/btn_kakao_login"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="750px"
+                android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="3dp"
+            >
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_marginTop="10dp"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="로그인"
+            android:background="#fff394"
+            />
+
+        <Button
+            android:id="@+id/login_register_btn"
+            android:layout_marginTop="10dp"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="회원가입"
+            android:background="#fff394"
+            android:layout_marginLeft="10dp"
+            />
+
+        </LinearLayout>
+
+
+            <!--//기존 이미지는 20dp이지만 내 이미지는 50dp라 기존 이미지를 숨겨버린다!-->
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

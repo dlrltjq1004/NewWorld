@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#424870</color>
+    <color name="colorPrimarybackgroud">#33343c</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorEmail">#2e3143</color>
+    <color name="colorblack">#b4121212</color>
+    <color name="colorFragment">#e0f9fb</color>
+    <color name="colorFragmentDark">#b3c7c8</color>
+
+</resources>

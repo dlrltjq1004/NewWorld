@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorFragmentDark">
+
+
+
+
+    <TextView
+        android:id="@+id/addFriendItem_FriendSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:text="친구 찾기"
+        android:layout_margin="10dp"
+        android:paddingLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/addFriendItem_SearchEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/addFriendItem_Btn"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:text="검색"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorFragmentDark"/>
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Search_RecyclerView"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
